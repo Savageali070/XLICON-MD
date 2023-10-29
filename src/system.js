@@ -342,7 +342,7 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SALMAN AHMAD.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Ali johntez.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
